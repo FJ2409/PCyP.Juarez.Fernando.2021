@@ -8,33 +8,33 @@ namespace Clase1.Ejercicio1.Figuras
 {
     class Cuadrado
     {
-        private int lado;
+        private double lado;
         
         public Cuadrado()
         {
             this.lado = 0;
         }
 
-        public void setLado(int lado)
+        public void setLado(double lado)
         {
             this.lado = lado;
         }
 
-        public int getLado()
+        public double getLado()
         {
             return lado;
         }
 
-        public int calcularArea()
+        public double calcularArea()
         {
-            int area = 0;
+            double area = 0;
 
             return area = lado * lado;
         }
         
-        public int calcularPerimetro()
+        public double calcularPerimetro()
         {
-            int perimetro = 0;
+            double perimetro = 0;
 
             return perimetro = lado*4;
         }   

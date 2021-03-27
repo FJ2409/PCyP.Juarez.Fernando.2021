@@ -8,8 +8,8 @@ namespace Clase1.Ejercicio1.Figuras
 {
     class Rectangulo
     {
-        private int base1;
-        private int altura1;
+        private double base1;
+        private double altura1;
 
 
 
@@ -19,37 +19,37 @@ namespace Clase1.Ejercicio1.Figuras
             this.altura1 = 0;
         }
 
-        public void setBase1(int base1)
+        public void setBase1(double base1)
         {
             this.base1 = base1;
         }
 
-        public int getBase1()
+        public double getBase1()
         {
             return base1;
         }
 
-        public void setAltura1(int altura1)
+        public void setAltura1(double altura1)
         {
             this.altura1 = altura1;
         }
 
-        public int getAltura1()
+        public double getAltura1()
         {
             return altura1;
         }
 
-        public int calcularArea()
+        public double calcularArea()
         {
-            int area = 0;
+            double area = 0;
 
             return area = base1 * altura1;
 
         }
 
-        public int calcularPerimetro()
+        public double calcularPerimetro()
         {
-            int perimetro = 0;
+            double perimetro = 0;
 
             return perimetro = base1 * 2 + altura1 * 2;
         }
