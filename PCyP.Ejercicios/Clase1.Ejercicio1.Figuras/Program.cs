@@ -8,7 +8,7 @@ namespace Clase1.Ejercicio1.Figuras
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Rectangulo r = new Rectangulo();
 

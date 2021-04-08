@@ -9,7 +9,7 @@ namespace Clase1.Ejercicio2.Vial
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string[] archivo= File.ReadAllLines("C:/Users/FJUAREZ/Desktop/vial.csv");
 
