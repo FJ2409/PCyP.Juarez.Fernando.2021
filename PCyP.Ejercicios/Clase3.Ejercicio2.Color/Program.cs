@@ -15,21 +15,20 @@ namespace Clase3.Ejercicio2.Color
         public static void Main(string[] args)
         {
 
-
-
             List<string> colores = new List<string>();
-            foreach(string color in colors)
-            {
-                colores.Add(color);
-            }
            
-            foreach(string color in colores)
+            for (int i=0; i< colors.Length; i++)
             {
-                Console.WriteLine(color);
+                colores.Add(colors[i]);
+            }
+
+            for (int j = 0; j < colores.FindIndex; j++)
+            {
+                Console.WriteLine(colores[j]);
             }
             //List<string> removerColores = new List<string>();
 
-
+    
         }
         }
     }
